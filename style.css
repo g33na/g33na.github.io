@@ -1,5 +1,85 @@
 /* This is a commnet in CSS */
 
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #4c339f;
+  overflow: hidden;
+  border: 1px solid whitesmoke;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #bd9468;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#964185;
+  color: white;
+}
+
+.banner{
+    position: relative;
+    background: rgb(130, 129, 187); 
+    overflow: hidden;
+}
+.banner::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    opacity: 0.7;
+    background-image: url("https://image.freepik.com/free-vector/abstract-geometric-gradient-background_78532-316.jpg");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    border: 1px solid whitesmoke;
+    /*padding: 40px;
+    margin: 40px;*/
+    margin-top: 0.1cm;
+}
+
+.banner h1{
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+    color: #bd9468; 
+    margin-left: 20px;
+    font-size: 26pt;
+    text-align: center;
+    -webkit-text-stroke: 0.5px #FFF;
+    
+}
+
+.banner p{
+    color:rgb(170, 228, 255);
+    text-align:left;
+    font-weight:bold;
+}
+
 body {
   background-image: url("https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
   background-color: #000000;
@@ -8,10 +88,7 @@ body {
   background-size: cover;
 }
 
-h1{
-    color: navy;
-    margin-left: 20px;
-  }
+
 /* div p {
     color: blanchedalmond;
     background-color: orange;
@@ -22,26 +99,7 @@ h1{
     margin: 20px;
 }
 */
-.banner.note {
 
-}
-
-.banner {
-    /* color: blanchedalmond;
-    background-color: orange; */
-    /* Boarders & Boxes */
-    width: auto;
-    border: 1px solid whitesmoke;
-    padding: 50px;
-    margin: 20px;
-
-}
-/*
-*/
-.note {
-    color: blanchedalmond;
-    background-color: orange;
-}
 
 
 /* div > p {
