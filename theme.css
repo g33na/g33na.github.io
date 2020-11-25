@@ -1,0 +1,9 @@
+p{
+    text-align:center;
+}
+.important{
+    color:red;
+}
+.warning{
+    display:none;
+}
